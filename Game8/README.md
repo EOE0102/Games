@@ -1,13 +1,15 @@
-# Introduction:
+# Introduction
 https://mp.weixin.qq.com/s/mcnN3dF5tzWlRg91cnWTEw
-# Usage:
+
+# Environment(Tested)
+- Windows10
+- Python3.5+(have installed necessary dependencies)
+
+# Usage
 - pip install -r requirements.txt
 - python Game8.py
-# Game Display:
-![giphy](effect/running.gif)
-# Python Version[Tested]:
-- Python3.6
-# Packages:
+
+# Packages
 - pygame
 - random
 - sys
@@ -15,3 +17,6 @@ https://mp.weixin.qq.com/s/mcnN3dF5tzWlRg91cnWTEw
 - math
 - collections
 - json
+
+# Game Display
+![giphy](effect/running.gif)

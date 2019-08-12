@@ -1,6 +1,11 @@
-# 游戏进行中界面
-# 作者: Charles
-# 公众号: Charles的皮卡丘
+'''
+Function:
+	游戏进行中界面
+作者:
+	Charles
+微信公众号:
+	Charles的皮卡丘
+'''
 import sys
 import json
 import math
@@ -359,7 +364,7 @@ class GAMING():
 		for turret in self.builtTurretGroup:
 			if coord == turret.coord:
 				self.builtTurretGroup.remove(turret)
-				self.money += turret.price * 0.5
+				self.money += int(turret.price * 0.5)
 				del turret
 				break
 	# 建造炮塔
